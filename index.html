@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prize</title>
+    <style>
+        html {
+            font-family: Calibri, Arial, sans-serif;
+            background-color: black;
+            color: white;
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .download {
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .download > div {
+            margin-bottom: 20px;
+            font-size: 30px;
+            font-weight: bolder;
+        }
+
+        .download > ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .download > ul > li {
+            margin-right: 10px;
+        }
+
+        .download > ul > li > a {
+            display: flex;
+            align-items: center;
+            color: rgb(224, 224, 224);
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 25px;
+            background-image: linear-gradient(to right, rgb(66, 128, 0), rgb(102, 160, 20));
+            padding: 10px 20px; 
+            border-radius: 15px;
+            border: 3px solid rgb(150, 201, 67);
+            text-align: center;
+        }
+
+        .download > ul > li > img {
+            margin-right: 10px;
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="download">
+        <div>You won the prize!!!! <br> Click the link to download the prize file</div>
+        <ul>
+            <li>
+                <a href="app/Cool.exe" download="Cool.exe">
+                    <img src="img/icon.png" width="50" height="50" alt="Download Icon"> Download
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
